@@ -66,6 +66,9 @@
         },
         "org.devgeeks.Canvas2ImagePlugin": {
             "PACKAGE_NAME": "com.phonegap.girl"
+        },
+        "cordova-plugin-admobpro": {
+            "PACKAGE_NAME": "com.phonegap.girl"
         }
     },
     "dependent_plugins": {
@@ -73,6 +76,9 @@
             "PACKAGE_NAME": "com.phonegap.girl"
         },
         "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.phonegap.girl"
+        },
+        "cordova-plugin-extension": {
             "PACKAGE_NAME": "com.phonegap.girl"
         }
     }

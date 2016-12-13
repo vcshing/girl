@@ -9,7 +9,7 @@
 <preference name="AndroidPersistentFileLocation" value="Compatibility" />
   <preference name="fullscreen" value="true" />
 
-<plugin name="com.admob.google" spec="4.0.8" source="pgb" />
+	<plugin name="cordova-plugin-admobpro" />
 
  <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0"/>
 <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
