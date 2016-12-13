@@ -64,10 +64,10 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.phonegap.girl"
         },
-        "cordova-plugin-admobpro": {
+        "org.devgeeks.Canvas2ImagePlugin": {
             "PACKAGE_NAME": "com.phonegap.girl"
         },
-        "org.devgeeks.Canvas2ImagePlugin": {
+        "cordova-admob": {
             "PACKAGE_NAME": "com.phonegap.girl"
         }
     },
@@ -78,7 +78,7 @@
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.phonegap.girl"
         },
-        "cordova-plugin-extension": {
+        "cordova-connectivity-monitor": {
             "PACKAGE_NAME": "com.phonegap.girl"
         }
     }
