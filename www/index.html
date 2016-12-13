@@ -116,7 +116,7 @@ imgurl="";
 imgtitle="";
 initdownload=0;
 	
-	r = new randomGenerator(1, 40);
+	r = new randomGenerator(1, 20);
 	callajaximagepage=r.get();
 	loadimage(callajaximagepage,times);	
 		
@@ -128,7 +128,7 @@ initdownload=0;
 			return;
 		}else if(callajaximagepage==0){
 			times++
-			r = new randomGenerator(1, 40);
+			r = new randomGenerator(1, 20);
 			callajaximagepage=r.get();
 			loadimage(callajaximagepage,times);	
 			return;

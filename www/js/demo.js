@@ -33,7 +33,7 @@ function loadimage(page,times){
 		min_upload_date :Math.round(currenttimestamp/1000) - (timeSpace*times),
 		//min_upload_date :Math.round(moment('2016-06-01 00:00:00', 'YYYY-MM-DD HH:mm:ss').valueOf()/1000),
 		sort:"relevance",
-		text:"性感"
+		text:"日本性感"
     },
     dataType: 'jsonp',
     jsonp: 'jsoncallback'
@@ -67,8 +67,10 @@ function loadimage(page,times){
 		//  })
 	  }
     })
-	
-	
+
+	if(Math.floor(Math.random() * 10) + 1 == 1 ){
+		admob.requestInterstitialAd();
+	}
     // Initialize the Gallery as image carousel:
 	/*
     blueimp.Gallery(carouselLinks, {
