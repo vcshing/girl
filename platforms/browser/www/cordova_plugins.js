@@ -1044,19 +1044,19 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.devgeeks.Canvas2ImagePlugin/www/Canvas2ImagePlugin.js",
-        "id": "org.devgeeks.Canvas2ImagePlugin.Canvas2ImagePlugin",
-        "pluginId": "org.devgeeks.Canvas2ImagePlugin",
-        "clobbers": [
-            "window.canvas2ImagePlugin"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-admobpro/www/AdMob.js",
         "id": "cordova-plugin-admobpro.AdMob",
         "pluginId": "cordova-plugin-admobpro",
         "clobbers": [
             "window.AdMob"
+        ]
+    },
+    {
+        "file": "plugins/org.devgeeks.Canvas2ImagePlugin/www/Canvas2ImagePlugin.js",
+        "id": "org.devgeeks.Canvas2ImagePlugin.Canvas2ImagePlugin",
+        "pluginId": "org.devgeeks.Canvas2ImagePlugin",
+        "clobbers": [
+            "window.canvas2ImagePlugin"
         ]
     }
 ];
@@ -1084,9 +1084,9 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.2",
     "cordova-plugin-whitelist": "1.2.2",
-    "org.devgeeks.Canvas2ImagePlugin": "0.6.0",
     "cordova-plugin-extension": "1.5.1",
-    "cordova-plugin-admobpro": "2.25.0"
+    "cordova-plugin-admobpro": "2.25.0",
+    "org.devgeeks.Canvas2ImagePlugin": "0.6.0"
 }
 // BOTTOM OF METADATA
 });

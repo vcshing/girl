@@ -167,14 +167,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "org.devgeeks.Canvas2ImagePlugin": {
-        "source": {
-            "type": "registry",
-            "id": "org.devgeeks.canvas2imageplugin@0.6.0"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-admobpro": {
         "source": {
             "type": "registry",
@@ -189,6 +181,15 @@
             "id": "cordova-plugin-extension"
         },
         "is_top_level": false,
+        "variables": {}
+    },
+    "org.devgeeks.Canvas2ImagePlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/devgeeks/Canvas2ImagePlugin.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
         "variables": {}
     }
 }
