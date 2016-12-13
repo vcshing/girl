@@ -33,7 +33,7 @@ function loadimage(page,times){
 		min_upload_date :Math.round(currenttimestamp/1000) - (timeSpace*times),
 		//min_upload_date :Math.round(moment('2016-06-01 00:00:00', 'YYYY-MM-DD HH:mm:ss').valueOf()/1000),
 		sort:"relevance",
-		text:"日本性感"
+		text:"GIRL"
     },
     dataType: 'jsonp',
     jsonp: 'jsoncallback'
